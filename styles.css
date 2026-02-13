@@ -23,7 +23,7 @@ main {
 }
 
 .container {
-  width: min(1920, 92%);
+  width: min(800px, 92%);
   margin: 0 auto;
 }
 
@@ -93,6 +93,7 @@ nav a {
 }
 
 .hero h1 {
+  font-size: clamp(1.9rem, 2.6vw, 3rem);
   white-space: nowrap;
   margin-bottom: 12px;
 }
@@ -117,11 +118,6 @@ nav a {
 .services-section .container {
   position: relative;
   z-index: 1;
-}
-
-h1 {
-  margin-bottom: 8px;
-  font-size: clamp(1.8rem, 2.6vw, 2.4rem);
 }
 
 h2 {
