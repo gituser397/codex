@@ -23,7 +23,7 @@ main {
 }
 
 .container {
-  width: min(1160px, 92%);
+  width: min(1920, 92%);
   margin: 0 auto;
 }
 
