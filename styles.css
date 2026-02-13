@@ -93,7 +93,7 @@ nav a {
 }
 
 .hero h1 {
-  font-size: clamp(1.5rem, 3.8vw, 3rem);
+  font-size: 12px;
   white-space: nowrap;
   margin-bottom: 12px;
 }
